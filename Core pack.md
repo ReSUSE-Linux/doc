@@ -44,7 +44,7 @@ jfsutils
 
 ~~less~~
 
--licenses
+licenses（待定）
 
 linux
 
