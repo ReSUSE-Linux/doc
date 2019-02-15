@@ -162,3 +162,5 @@ which
 
 +yast(待定)
 
+## 当前事务 ##
+* `nacyro` 目前正在打包 `glibc`  
