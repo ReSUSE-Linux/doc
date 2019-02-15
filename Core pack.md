@@ -12,7 +12,7 @@
 | --------------- | --------------- | -------------- | ------------- | ---------------- |
 | `bash`          | ~~`bzip2`~~     | `coreutils`    | `cryptsetup`  | `device-mapper`  |
 | `dhcpcd`        | `e2fsprogs`     | `file`         | `filesystem`  | `findutils`      |
-| `gawk`          | gcc-libs        | `gettext`      | `grep`        | `inetutils`      |
+| `gawk`          | `gcc-libs`      | `gettext`      | `grep`        | `inetutils`      |
 | `iproute2`      | `iputils`       | `jfsutils`     | `linux`       | `linux-firmware` |
 | `logrotate`     | `lvm2`          | `man-db`       | `man-pages`   | `mdadm`          |
 | `netctl`        | `pciutils`      | `perl`         | `procps-ng`   | `psmisc`         |
