@@ -22,20 +22,20 @@
 | `file`          | `findutils`     | `flex`         | `gawk`        | `gettext`        |
 | `which`         | `groff`         | `m4`           | `make`        | `patch`          |
 | `pkgconf`       | `sed`           | `sudo`         | `texinfo`     | `util-linux`     |
-| `(!) gcc`       | `(+) pacman`    | `(+) ruby`     | `(+) zipper`  | `(+) libzypp`    |
+| `(!) gcc`       | `(+) ruby`      | `(+) zypper`   | `(+) libzypp` | ~~`nano`~~       |
 | ~~`less`~~      | ~~`diffutils`~~ | ~~`gzip`~~     | ~~`libtool`~~ | ~~`tar`~~        |
-| ~~`nano`~~      | ~~`(?) xz`~~    | ~~`(?) gdbm`~~ | `(?)licenses` | `(?) yast`       |
-| `(?)vi`         |                 |                |               |                  |
+| `(?)vi`         | ~~`(?) xz`~~    | ~~`(?) gdbm`~~ | `(?)licenses` | `(?) yast`       |
 
-> * `(+)` 为非 `core` 库，但被 `zypper` 需要，`(!)` 为优先打包项目，删除线为已完成打包项目，`(?)` 为待定打包项目；
-> * 不打 `systemd` 相关包 `systemd`， `systemd-sysvcompat`， `systemd-sysvcompat`；
+> * `(+)` 为非 `core` 库，但被 `zypper` 需要，`(!)` 为优先打包项目，删除线为已完成打包项目  
+>   `(?)` 为待定打包项目
+> * 不打 `systemd` 相关包 `systemd` `systemd-sysvcompat` `systemd-sysvcompat` `pacman`
 > * 当前已打不在`core`库的包：`neofetch`
 
 ## 当前打包任务部署
 
-| 打包者                | 当前任务 | 当前任务 | 当前任务 |
-| --------------------- | -------- | -------- | -------- |
-| `Zypper`              | `bzip2`  |          |          |
-| `OBS`                 | `grep`   |          |          |
-| `openSUSE-TumbleWeed` | `sed`    |          |          |
-| `Yast`                | `glibc`  |          |          |
+| 打包者                | 当前任务 | 当前任务 | 当前任务 | 当前任务 |
+| --------------------- | -------- | -------- | -------- | -------- |
+| `Zypper`              | `bzip2`  |          |          |          |
+| `OBS`                 | `grep`   |          |          |          |
+| `openSUSE-TumbleWeed` | `sed`    |          |          |          |
+| `Yast`                | `glibc`  |          |          |          |
