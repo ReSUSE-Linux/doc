@@ -26,7 +26,7 @@
 
 ## 当前打包任务部署
 
-| ReSUSEr               | 开发维护    | 开发维护       | 开发维护     | 开发维护  |
+| ReSUSEr               | 开发维护    | 开发维护        | 开发维护     | 开发维护  |
 | --------------------- | ---------- | -------------- | ------------| -------- |
 | `Zypper`              | `e2fsprogs`| `file`         | `findutils` |          |
 | `OBS`                 | `grep`     |                |             |          |
@@ -34,7 +34,8 @@
 | `Yast`                | `glibc`    | `core_pack.md` |             |          |
 
 ## 常用资源链接
-* [Arch Linux Core Repo](https://www.archlinux.org/packages/?repo=Core "Arch Linux Core Repo Search")  [Arch Linux base Group](https://www.archlinux.org/groups/x86_64/base/ "Arch Linux base Group")  [Arch Linux base-devel Group ](https://www.archlinux.org/groups/x86_64/base-devel/ "Arch Linux base-devel Group")
-* [Fedora Rawhide SPECs](https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/source/tree/Packages/ "Fedora Rawhide SPECS")
-* [openSUSE Tumbleweed SPECs](http://opensuse.mirror.liquidtelecom.com/source/tumbleweed/repo/ "风滚草的SPEC")
-* [RPM Packaging Guide](https://rpm-packaging-guide.github.io/ "RPM 打包手册")
+* [`Arch Linux Core Repo`](https://www.archlinux.org/packages/?repo=Core "Arch Linux Core Repo Search")  [`Arch Linux base Group`](https://www.archlinux.org/groups/x86_64/base/ "Arch Linux base Group")  [`Arch Linux base-devel Group`](https://www.archlinux.org/groups/x86_64/base-devel/ "Arch Linux base-devel Group")  [`ArchLinux AUR`](https://aur.archlinux.org/ "The Arch Linux User-community Repository")
+* [`Fedora Rawhide SPECs`](https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/source/tree/Packages/ "Fedora Rawhide SPECS")
+* [`openSUSE Tumbleweed SPECs`](http://opensuse.mirror.liquidtelecom.com/source/tumbleweed/repo/ "风滚草的SPEC")
+* [`RPM Packaging Guide`](https://rpm-packaging-guide.github.io/ "RPM 打包手册")
+* [`LFS v8.3`](http://www.linuxfromscratch.org/lfs/view/stable/ "The LFS Stable Book")  [`BLFS 8.3`](http://www.linuxfromscratch.org/blfs/view/stable/ "The BLFS Stable Book")
