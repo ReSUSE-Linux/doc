@@ -1,14 +1,7 @@
-## `SPEC`打包规范 ( 第一版 )
-> 1. 不要在开头增加项目注释说明，后期统一添加；
-> 2. 不是肯定下来需要添加的 `patch` 不要添加 (`openSUSE` 的`patch`较多，注意剥离)；
-> 3. 打包从简，不是必须拆的包不拆包；
-> 4. 少留空档，暂时不写 `Changelog` `Dependency`；
-> 5. 只打包 `amd64` 架构，暂时不打包其他架构 (含`i586`) ；
-
-## **`core` 包** ( 参考 `Arch Linux` ）
+## **`core` 包** ( 参考 [`Arch Linux`](https://www.archlinux.org/packages/ "Arch Linux Packages") ）
 
 ### `Core` 库
-| 软件包          | 软件包          | 软件包         | 软件包        | 软件包           |
+| 软件包           | 软件包           | 软件包          | 软件包         | 软件包           |
 | --------------- | --------------- | -------------- | ------------- | ---------------- |
 | `bash`          | ~~`bzip2`~~     | `coreutils`    | `cryptsetup`  | `device-mapper`  |
 | `dhcpcd`        | `e2fsprogs`     | `file`         | `filesystem`  | `findutils`      |
@@ -33,9 +26,15 @@
 
 ## 当前打包任务部署
 
-| 打包者                | 当前任务 | 当前任务 | 当前任务 | 当前任务 |
-| --------------------- | -------- | -------- | -------- | -------- |
-| `Zypper`              | `bzip2`  |          |          |          |
-| `OBS`                 | `grep`   |          |          |          |
-| `openSUSE-TumbleWeed` | `sed`    |          |          |          |
-| `Yast`                | `glibc`  |          |          |          |
+| ReSUSEr               | 开发维护 | 开发维护         | 开发维护  | 开发维护  |
+| --------------------- | -------- | -------------- | -------- | -------- |
+| `Zypper`              |          |                |          |          |
+| `OBS`                 | `grep`   |                |          |          |
+| `openSUSE-TumbleWeed` | `sed`    |                |          |          |
+| `Yast`                | `glibc`  | `core_pack.md` |          |          |
+
+## 常用资源链接
+* [Arch Linux Core Repo](https://www.archlinux.org/packages/?repo=Core "Arch Linux Core Repo Search")  [Arch Linux base Group](https://www.archlinux.org/groups/x86_64/base/ "Arch Linux base Group")  [Arch Linux base-devel Group ](https://www.archlinux.org/groups/x86_64/base-devel/ "Arch Linux base-devel Group")
+* [Fedora Rawhide SPECs](https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/source/tree/Packages/ "Fedora Rawhide SPECS")
+* [openSUSE Tumbleweed SPECs](http://opensuse.mirror.liquidtelecom.com/source/tumbleweed/repo/ "风滚草的SPEC")
+* [RPM Packaging Guide](https://rpm-packaging-guide.github.io/ "RPM 打包手册")
