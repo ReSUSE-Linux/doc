@@ -11,7 +11,7 @@
 | `netctl`        | `pciutils`      | `perl`         | `procps-ng`   | `psmisc`         |
 | `reiserfsprogs` | `s-nail`        | `sed`          | `shadow`      | `sysfsutils`     |
 | `texinfo`       | `usbutils`      | `util-linux`   | `which`       | `xfsprogs`       |
-| `autoconf`      | `automake`      | `binutils`     | `bison`       | `fakeroot`       |
+| `autoconf`      | `automake`      | `(!)binutils`  | `bison`       | `fakeroot`       |
 | `file`          | `findutils`     | `flex`         | `gawk`        | `gettext`        |
 | `which`         | `groff`         | `m4`           | `make`        | `patch`          |
 | `pkgconf`       | `sed`           | `sudo`         | `texinfo`     | `util-linux`     |
@@ -26,12 +26,12 @@
 
 ## 当前打包任务部署
 
-| ReSUSEr               | 开发维护 | 开发维护         | 开发维护  | 开发维护  |
-| --------------------- | -------- | -------------- | -------- | -------- |
-| `Zypper`              |          |                |          |          |
-| `OBS`                 | `grep`   |                |          |          |
-| `openSUSE-TumbleWeed` | `sed`    |                |          |          |
-| `Yast`                | `glibc`  | `core_pack.md` |          |          |
+| ReSUSEr               | 开发维护    | 开发维护       | 开发维护     | 开发维护  |
+| --------------------- | ---------- | -------------- | ------------| -------- |
+| `Zypper`              | `e2fsprogs`| `file`         | `findutils` |          |
+| `OBS`                 | `grep`     |                |             |          |
+| `openSUSE-TumbleWeed` | `sed`      |                |             |          |
+| `Yast`                | `glibc`    | `core_pack.md` |             |          |
 
 ## 常用资源链接
 * [Arch Linux Core Repo](https://www.archlinux.org/packages/?repo=Core "Arch Linux Core Repo Search")  [Arch Linux base Group](https://www.archlinux.org/groups/x86_64/base/ "Arch Linux base Group")  [Arch Linux base-devel Group ](https://www.archlinux.org/groups/x86_64/base-devel/ "Arch Linux base-devel Group")
