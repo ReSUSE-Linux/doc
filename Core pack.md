@@ -34,8 +34,9 @@
 | `Yast`                | `glibc`    | `core_pack.md` |             |          |
 
 ## 常用资源链接
-* [`Arch Linux Core Repo`](https://www.archlinux.org/packages/?repo=Core "Arch Linux Core Repo Search")  [`Arch Linux base Group`](https://www.archlinux.org/groups/x86_64/base/ "Arch Linux base Group")  [`Arch Linux base-devel Group`](https://www.archlinux.org/groups/x86_64/base-devel/ "Arch Linux base-devel Group")  [`ArchLinux AUR`](https://aur.archlinux.org/ "The Arch Linux User-community Repository")
+* [`Arch Linux Package`](https://www.archlinux.org/packages"Arch Linux Package Search")    [`ArchLinux AUR`](https://aur.archlinux.org/ "The Arch Linux User-community Repository")
 * [`Fedora Rawhide SPECs`](https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/source/tree/Packages/ "Fedora Rawhide SPECS")
 * [`openSUSE Tumbleweed SPECs`](http://opensuse.mirror.liquidtelecom.com/source/tumbleweed/repo/ "风滚草的SPEC")
-* [`RPM Packaging Guide`](https://rpm-packaging-guide.github.io/ "RPM 打包手册")
+* [`RPM Packaging Guide`](https://rpm-packaging-guide.github.io/ "简明版 RPM 打包手册")
+* [`Fedora RPM Guide`](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/index.html "Fedora RPM 手册"
 * [`LFS v8.3`](http://www.linuxfromscratch.org/lfs/view/stable/ "The LFS Stable Book")  [`BLFS 8.3`](http://www.linuxfromscratch.org/blfs/view/stable/ "The BLFS Stable Book")
