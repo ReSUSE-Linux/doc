@@ -9,3 +9,7 @@
 确认默认vim/nano/emacs/ne风格，设计一个迷你的包管理器，只负责给用户安装配置文件
 
 尽快确认徽标，主题颜色
+
+ARM版确认将提供，但不确认是否armhf, aarch64，ARM版讲提供strong和lite两种版本，strong版为glibc，不压缩不裁剪，lite版使用musl，内核裁剪，默认软件压缩
+
+如果MIPS架构和SHENWEI(申威)架构需要定当移植。
